@@ -2,7 +2,7 @@ import React, {Component, useState} from "react";
 import "./../styles/App.css";
 
 function App() {
-  const [showPara, setShowPara] = useState(true);
+  const [showPara, setShowPara] = useState(false);
   return (
     <div id="main">
       <button id="click" onClick={() => setShowPara(!showPara)}>Show Para</button>
