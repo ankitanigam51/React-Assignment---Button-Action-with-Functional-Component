@@ -8,7 +8,7 @@ function App() {
     <div id="main">
       <button id="click" onClick={() => setShowPara(true)}>Show Para</button>
       {showPara ? ( <p id="para"> 
-      Hello, I've learnt to use the full-stack evaluation tool.This makes me so happy.
+      Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy
       </p> 
       ) : null}
 </div>
